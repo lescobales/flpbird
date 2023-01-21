@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BirdComponent } from './bird/bird.component';
+import { ObstacleComponent } from './obstacle/obstacle.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BirdComponent,
+    ObstacleComponent
   ],
   imports: [
     BrowserModule,
